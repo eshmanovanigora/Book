@@ -1,7 +1,7 @@
 class Book:
     book_count = 0
 
-    def __init__(self, title, author, genre, publication_year, price, availability = True):
+    def __init__(self, title: str, author: str, genre: str, publication_year: int, price: float, availability: bool = True):
         self.title = title
         self.author = author
         self.genre = genre
